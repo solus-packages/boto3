@@ -2,11 +2,11 @@
     <Source>
         <Name>boto3</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>example@example.com</Email>
         </Packager>
         <License>Apache-2.0</License>
-        <PartOf>system.utils</PartOf>
+        <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">AWS SDK for Python</Summary>
         <Description xml:lang="en">AWS SDK for Python
 </Description>
@@ -17,7 +17,7 @@
         <Summary xml:lang="en">AWS SDK for Python</Summary>
         <Description xml:lang="en">AWS SDK for Python
 </Description>
-        <PartOf>system.utils</PartOf>
+        <PartOf>programming.python</PartOf>
         <Files>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.0-py2.7.egg-info/PKG-INFO</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.0-py2.7.egg-info/SOURCES.txt</Path>
@@ -117,12 +117,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-09-11</Date>
+        <Update release="2">
+            <Date>2016-09-12</Date>
             <Version>1.4.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>example@example.com</Email>
         </Update>
     </History>
 </PISI>

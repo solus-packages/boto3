@@ -1,10 +1,10 @@
 name       : boto3
 version    : 1.4.0
-release    : 1
+release    : 2
 source     :
     - https://github.com/boto/boto3/archive/1.4.0.tar.gz : 8fdd3743e34a32e5cb8636fb33dafe7336b7a341583653f52c6c20f7fe764472
 license    : Apache-2.0
-component  : system.utils
+component  : programming.python
 summary    : AWS SDK for Python
 description: |
     AWS SDK for Python
