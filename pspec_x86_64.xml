@@ -2,8 +2,8 @@
     <Source>
         <Name>boto3</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.python</PartOf>
@@ -19,11 +19,11 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.0-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.0-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.0-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.0-py2.7.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.0-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.4-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.4-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.4-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.4-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3-1.4.4-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/compat.py</Path>
@@ -36,6 +36,8 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/data/ec2/2015-04-15/resources-1.json</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/data/ec2/2015-10-01/resources-1.json</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/data/ec2/2016-04-01/resources-1.json</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/data/ec2/2016-09-15/resources-1.json</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/data/ec2/2016-11-15/resources-1.json</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/data/glacier/2012-06-01/resources-1.json</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/data/iam/2010-05-08/resources-1.json</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/boto3/data/opsworks/2013-02-18/resources-1.json</Path>
@@ -117,12 +119,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2016-09-12</Date>
-            <Version>1.4.0</Version>
+        <Update release="3">
+            <Date>2017-03-20</Date>
+            <Version>1.4.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
